@@ -1,4 +1,4 @@
-const server = "http://localhost:8080";
+const server = "https://rentcar-backend-production-4b61.up.railway.app";
 
 // 렌탈 오퍼 등록 API 호출 함수 (CarRegistrationPage 컴포넌트에서 사용)
 export async function registerRentalOffer(token, rentalOfferData, images) {

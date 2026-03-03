@@ -30,7 +30,7 @@ export default function OfferBook() {
 
   const [imgIdx, setImgIdx] = useState(0);
 
-  const SERVER = "http://localhost:8080";
+  const SERVER = "https://rentcar-backend-production-4b61.up.railway.app";
   const imageSrc = (it) => {
     const p = it?.img ?? it?.imagePath ?? it?.path ?? it?.url ?? "";
     if (!p) return "";
