@@ -1,4 +1,4 @@
-const server = "http://localhost:8080";
+const server = "https://rentcar-backend-production-4b61.up.railway.app";
 
 export async function createReview(token, reservationIdx, reviewData) {
   try {
