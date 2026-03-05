@@ -9,7 +9,7 @@ import {
   returnReservation,
 } from "../requests/offerRegistration-api";
 
-const API = "https://rentcar-backend-production-4b61.up.railway.app";
+const API = "http://localhost:8080";
 
 function StatusPill({ label }) {
   const tone =

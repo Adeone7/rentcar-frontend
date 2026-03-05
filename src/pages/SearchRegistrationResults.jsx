@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
 
-const SERVER = "https://rentcar-backend-production-4b61.up.railway.app";
+const SERVER = "http://localhost:8080";
 
 function fmtDate(d) {
   if (!d) return "";

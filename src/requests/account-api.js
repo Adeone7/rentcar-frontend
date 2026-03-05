@@ -1,4 +1,4 @@
-const server = "https://rentcar-backend-production-4b61.up.railway.app";
+const server = "http://localhost:8080";
 
 const defaultHeader = {
   "Content-Type": "application/json",

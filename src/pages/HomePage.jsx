@@ -7,7 +7,7 @@ import { useNavigate } from "react-router";
 import Loading from "../modal/Loading";
 import SearchBar from "../compornent/SearchBar";
 
-const API = "https://rentcar-backend-production-4b61.up.railway.app";
+const API = "http://localhost:8080";
 
 const MONTHLY_CHART_PATH = "/home/offer/chart";
 
